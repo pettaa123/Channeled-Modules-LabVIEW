@@ -13,5 +13,6 @@
 	</Item>
 	<Item Name="Bundle Message.vim" Type="VI" URL="../Bundle Message.vim"/>
 	<Item Name="Message Cluster.ctl" Type="VI" URL="../Message Cluster.ctl"/>
+	<Item Name="State and Info Logger.vim" Type="VI" URL="../../State and Info Logger.vim"/>
 	<Item Name="Unbundle Message.vim" Type="VI" URL="../Unbundle Message.vim"/>
 </Library>

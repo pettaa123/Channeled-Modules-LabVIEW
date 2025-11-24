@@ -16,6 +16,7 @@
 		<Item Name="Bundle Module Message.xnode" Type="XNode" URL="../../Channel Messages/Bundle Module Message/Bundle Module Message.xnode"/>
 		<Item Name="Channel Messages.lvlib" Type="Library" URL="../../Channel Messages/Channel Messages.lvlib"/>
 		<Item Name="Enqueue Handle Error.vi" Type="VI" URL="../Enqueue Handle Error.vi"/>
+		<Item Name="Module Network Stream Decorator.vi" Type="VI" URL="../Module Network Stream Decorator.vi"/>
 		<Item Name="Remote Module DataSocket Decorator.vi" Type="VI" URL="../Remote Module DataSocket Decorator.vi"/>
 		<Item Name="Template Caller.vi" Type="VI" URL="../Template Caller.vi"/>
 		<Item Name="Template Module Cases.ctl" Type="VI" URL="../Template Module Cases.ctl"/>

@@ -8,6 +8,8 @@
 
 </Property>
 	<Item Name="Abort Channel.vi" Type="VI" URL="../Abort Channel.vi"/>
-	<Item Name="Send _Abort.vi" Type="VI" URL="../../../template/Send _Abort.vi"/>
+	<Item Name="Last Ack.ctl" Type="VI" URL="../../../template/Last Ack.ctl"/>
+	<Item Name="Send _Abort.vi" Type="VI" URL="../Send _Abort.vi"/>
+	<Item Name="Send Handle Last Ack.vi" Type="VI" URL="../Send Handle Last Ack.vi"/>
 	<Item Name="Send Stop.vi" Type="VI" URL="../Send Stop.vi"/>
 </Library>

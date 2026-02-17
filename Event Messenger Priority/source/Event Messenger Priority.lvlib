@@ -1,11 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="19008000">
+<Library LVVersion="20008000">
 	<Property Name="Localized" Type="Str">Localize</Property>
-	<Property Name="NI.Lib.Description" Type="Str">An &lt;b&gt;Event Messenger&lt;/b&gt; channel conveys data from multiple writers to one or more Event structures.  Each write to the channel triggers an event. This channel template allows channel syntax to blend with the syntax for control of your user interfaces.</Property>
+	<Property Name="NI.Lib.Description" Type="Str">&lt;b&gt;Custom Event Messenger&lt;/b&gt; channel that adds priority level to message data and reduces the event's data node size.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*J!!!*Q(C=\:5RDBJ"%%8`W![=%GRI;56+7$?QO!*8K#O1TI*8YAJV"41X)(2;6_!+:#:!7IX@^$&lt;$/&amp;C2?'5(7UU"][O\[F(&gt;;K2C8[5P[O^:-\7O[`Z]?)XX^&lt;0JTNX%TN=Y%ZK_RM_DX?*^'5.]-9UP&lt;P'GZF^UC^&amp;O]?&lt;+_6:]MPYSWD2_88_:RC`4`(W.4_QSS@^G@_[90OT$`KWV&gt;Q`JOZ`:2M.&amp;B#=?O//GI63@[)G?[)G?[)E?[)%?[)%?[)(O[)\O[)\O[)ZO[):O[):O[):?"LL1B3ZUE*,C3;%E;:)AG1S+EL?%*_&amp;*?")?(J8Q*$Q*4]+4]$"&amp;#5`#E`!E0!E0SZ4Q*$Q*4]+4]*#KE'1:[0!E0+28Q"0Q"$Q"4]"$315]!5"1,%A=*!&amp;$14$Y%P!%0!%08R8Q"$Q"4]!4]""7Q"0Q"$Q"4]$$EN+6+$4$1)?(.(*Y("[(R_&amp;R?%ANB]@B=8A=(I?(=H*Y("Y(QCHI*!&gt;"TC*HAP0A]$A]@-DB=8A=(I@(Y3&amp;5&gt;MB,:Q;;9;$$9`!90!;0Q70QE%)'D]&amp;D]"A]"A^J:@!90!;0Q70Q5%I'D]&amp;D]"AA2F(+SUBG,$1G'9,"Q[O=&amp;CO\&amp;)8%SJ$KY65^F+K(4@51K2Y/V5V8X5T646*NPGJ46:OFWA46([=+L1KD7E2V]4"2*^[0_!(@YTN]D;`Q*4\(:]03PTTR&gt;$LJ?$TK=$BIP^^LN^NJP6ZLN6JJO6RK0J^L.JO.V]!D9\Q18O_F^H0\\8H4`^J]&lt;R_?]2_&lt;^G',NWB0W`ZF_\.`'?;]UX`J@X!X[J/G??H2&lt;Q%EK"=!!!!!</Property>
-	<Property Name="NI.Lib.LocalName" Type="Str">Event Messenger</Property>
-	<Property Name="NI.Lib.Locked" Type="Str">locked</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*J!!!*Q(C=\:5RDBJ"%%8`W![=%GRI;56+7$?QO!*8K#O1TI*8YAJV"41X)(2;6_!+:#:!7IX@^$&lt;$/&amp;C2?'5(7UU"][O\[F(&gt;;K2C8[5P[O^:-\7O[`Z]?)XX^&lt;0JTNX%TN=Y%ZK_RM_DX?*^'5.]-9UP&lt;P'GZF^UC^&amp;O]?&lt;+_6:]MPYSWD2_88_:RC`4`(W.4_QSS@^G@_[90OT$`KWV&gt;Q`JOZ`:2M.&amp;B#=?O//GI63@[)G?[)G?[)E?[)%?[)%?[)(O[)\O[)\O[)ZO[):O[):O[):?"LL1B3ZUE*,C3;%E;:)AG1S+EL?%*_&amp;*?")?(J8Q*$Q*4]+4]$"&amp;#5`#E`!E0!E0SZ4Q*$Q*4]+4]*#KE'1:[0!E0+28Q"0Q"$Q"4]"$315]!5"1,%A=*!&amp;$14$Y%P!%0!%08R8Q"$Q"4]!4]""7Q"0Q"$Q"4]$$EN+6+$4$1)?(.(*Y("[(R_&amp;R?%ANB]@B=8A=(I?(=H*Y("Y(QCHI*!&gt;"TC*HAP0A]$A]@-DB=8A=(I@(Y3&amp;5&gt;MB,:Q;;9;$$9`!90!;0Q70QE%)'D]&amp;D]"A]"A^J:@!90!;0Q70Q5%I'D]&amp;D]"AA2F(+SUBG,$1G'9,"Q[O=&amp;CO\&amp;)8%SJ$KY65^F+K(4@51K2Y/V5V8X5T646*NPGJ46:OFWA46([=+L1KD7E2V]4"2*^[0_!(@YTN]D;`Q*4\(:]03PTTR&gt;$LJ?$TK=$BIP^^LN^NJP6ZLN6JJO6RK0J^L.JO.V]!D9\Q18O_F^H0\\8H4`^J]&lt;R_?]2_&lt;^G',NWB0W`ZF_\.`'?;]UX`J@X!X[J/G??H2&lt;Q%EK"=!!!!!</Property>
+	<Property Name="NI.Lib.LocalName" Type="Str">Custom Event Messenger</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -16,7 +15,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Wire Probe.vi" Type="VI" URL="../Wire Probe.vi"/>
 		<Item Name="Channel Probe.vi" Type="VI" URL="../Channel Probe.vi"/>
-		<Item Name="EventMessengerData.lvclass" Type="LVClass" URL="../EventMessengerData.lvclass"/>
+		<Item Name="EventMessengerPData.lvclass" Type="LVClass" URL="../EventMessengerPData.lvclass"/>
 	</Item>
 	<Item Name="ReadEndpoints" Type="Folder">
 		<Item Name="Read Event Registration.vi" Type="VI" URL="../Read Event Registration.vi"/>
@@ -25,9 +24,14 @@
 	<Item Name="WriteEndpoints" Type="Folder">
 		<Item Name="Write.vi" Type="VI" URL="../Write.vi"/>
 	</Item>
-	<Item Name="Instantiate.vi" Type="VI" URL="../Instantiate.vi"/>
 	<Item Name="))Channel.ctl" Type="VI" URL="../))Channel.ctl"/>
-	<Item Name="))Channel.vi" Type="VI" URL="../))Channel.vi"/>
-	<Item Name="ChannelOp.ctl" Type="VI" URL="../ChannelOp.ctl"/>
+	<Item Name="))Channel.vi" Type="VI" URL="../))Channel.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="ChannelOp.ctl" Type="VI" URL="../ChannelOp.ctl">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Element.ctl" Type="VI" URL="../Element.ctl"/>
 	<Item Name="Event Data.ctl" Type="VI" URL="../Event Data.ctl"/>
+	<Item Name="Instantiate.vi" Type="VI" URL="../Instantiate.vi"/>
 </Library>

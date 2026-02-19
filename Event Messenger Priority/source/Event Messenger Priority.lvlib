@@ -21,6 +21,9 @@
 		<Item Name="Read Event Registration.vi" Type="VI" URL="../Read Event Registration.vi"/>
 		<Item Name="Read Multiple Event Registration.vi" Type="VI" URL="../Read Multiple Event Registration.vi"/>
 	</Item>
+	<Item Name="WriteEndpoints" Type="Folder">
+		<Item Name="Write.vi" Type="VI" URL="../Write.vi"/>
+	</Item>
 	<Item Name="))Channel.ctl" Type="VI" URL="../))Channel.ctl"/>
 	<Item Name="))Channel.vi" Type="VI" URL="../))Channel.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -31,5 +34,4 @@
 	<Item Name="Element.ctl" Type="VI" URL="../Element.ctl"/>
 	<Item Name="Event Data.ctl" Type="VI" URL="../Event Data.ctl"/>
 	<Item Name="Instantiate.vi" Type="VI" URL="../Instantiate.vi"/>
-	<Item Name="Write.vi" Type="VI" URL="../Write.vi"/>
 </Library>
